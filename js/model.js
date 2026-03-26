@@ -7,7 +7,7 @@ class MenuModel {
         this.cart = JSON.parse(localStorage.getItem('grandHotelCart')) || [];
         this.menuData = {};
         this.language = 'en'; 
-        this.tipRate = 0; // 0, 0.10, 0.15
+        this.tipRate = parseFloat(localStorage.getItem('grandHotelTip')) || 0;
     }
 
     async fetchMenuData() {
@@ -78,6 +78,7 @@ class MenuModel {
 
     setTipRate(rate) {
         this.tipRate = parseFloat(rate);
+        localStorage.setItem('grandHotelTip', this.tipRate);
     }
 
     setLanguage(lang) {
