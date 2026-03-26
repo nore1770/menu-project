@@ -1,0 +1,439 @@
+[
+  {
+    "id": 1,
+    "name": "Butter Poached Lobster",
+    "price": "49€",
+    "description": "Atlantic lobster served with lemon butter sauce.",
+    "ingredients": [
+      "lobster",
+      "butter",
+      "lemon",
+      "garlic",
+      "sea salt"
+    ],
+    "category": "main",
+    "dietary": [
+      "gluten-free"
+    ],
+    "image": "images/lobster.jpg",
+    "story": "Indulge in our exquisite Atlantic lobster, sustainably sourced from the cold, pristine waters off the coast of Brittany. Slow-poached to absolute perfection in artisanal churned butter for an incredibly tender texture, it is finished with a vibrant, citrusy lemon butter sauce. This masterpiece embodies the pinnacle of seafood fine dining."
+  },
+  {
+    "id": 2,
+    "name": "Truffle Risotto",
+    "price": "32€",
+    "description": "Creamy risotto finished with black truffle and parmesan.",
+    "ingredients": [
+      "arborio rice",
+      "black truffle",
+      "parmesan",
+      "butter",
+      "white wine"
+    ],
+    "category": "main",
+    "isSpecial": true,
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "images/risotto.jpg",
+    "story": "A legendary creation from our head chef. We slow-cook premium Arborio rice in a rich, velvety broth, folding in the finest Parmigiano-Reggiano and imported European butter. Finally, it is generously topped with freshly shaved black truffles to deliver an intoxicating, earthy aroma that lingers on the palate."
+  },
+  {
+    "id": 3,
+    "name": "Seared Scallops",
+    "price": "36€",
+    "description": "Golden scallops with cauliflower purée.",
+    "ingredients": [
+      "scallops",
+      "cauliflower",
+      "butter",
+      "chives"
+    ],
+    "category": "starters",
+    "dietary": [
+      "gluten-free"
+    ],
+    "image": "images/scallops.jpg",
+    "story": "Harvested fresh and deliberately seared to achieve a beautiful golden-brown crust while maintaining a buttery, translucent center. These delicate sea scallops rest elegantly on a bed of silky smooth, slow-roasted cauliflower purée, garnished with finely chopped chives and a drizzle of premium olive oil."
+  },
+  {
+    "id": 4,
+    "name": "Filet Mignon",
+    "price": "45€",
+    "description": "Premium beef tenderloin with red wine reduction.",
+    "ingredients": [
+      "beef tenderloin",
+      "red wine",
+      "butter",
+      "thyme"
+    ],
+    "category": "main",
+    "dietary": [
+      "gluten-free"
+    ],
+    "image": "images/filet.jpg",
+    "story": "Experience the ultimate expression of culinary luxury constraint. Our center-cut beef tenderloin is dry-aged for 28 days to intensify its natural flavors, pan-seared to your exact preference, and draped in a profound, velvety red wine reduction simmered for 48 hours. A true carnivore’s delight."
+  },
+  {
+    "id": 5,
+    "name": "Burrata Salad",
+    "price": "21€",
+    "description": "Creamy burrata with heirloom tomatoes and basil.",
+    "ingredients": [
+      "burrata cheese",
+      "heirloom tomatoes",
+      "basil",
+      "olive oil"
+    ],
+    "category": "starters",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "images/burrata.jpg",
+    "story": "A celebration of simple, vibrant Mediterranean flavors. We air-freight fresh, creamy Burrata cheese directly from Puglia, Italy, serving it alongside sun-ripened, intensely sweet heirloom tomatoes. Finished with hand-torn basil leaves, sea salt, and a generous pour of cold-pressed, single-estate extra virgin olive oil."
+  },
+  {
+    "id": 6,
+    "name": "Avocado Toast",
+    "price": "14€",
+    "description": "Sourdough toast topped with smashed avocado and poached eggs.",
+    "ingredients": [
+      "sourdough bread",
+      "avocado",
+      "eggs",
+      "chili flakes"
+    ],
+    "category": "lightCourses",
+    "dietary": [
+      "vegetarian",
+      "lactose-free"
+    ],
+    "image": "images/avocado_toast.jpg",
+    "story": "Elevating a modern classic to new heights. We use our house-baked, 72-hour fermented sourdough as the foundation, topped with a generous layer of perfectly ripe, smashed Hass avocados. Two exquisitely poached farm-fresh eggs crown the dish, finished with vibrant chili flakes to add a subtle, warming kick."
+  },
+  {
+    "id": 7,
+    "name": "Vegan Coconut Curry",
+    "price": "25€",
+    "description": "Rich coconut milk curry with roasted vegetables.",
+    "ingredients": [
+      "coconut milk",
+      "curry paste",
+      "bell peppers",
+      "zucchini",
+      "jasmine rice"
+    ],
+    "category": "main",
+    "dietary": [
+      "vegan",
+      "lactose-free",
+      "gluten-free"
+    ],
+    "image": "images/curry.jpg",
+    "story": "A vibrant, aromatic journey to the East. Our rich, creamy coconut milk base is infused with a meticulously hand-pounded blend of authentic Thai curry spices and fresh lemongrass. We simmer a colorful array of crisp, roasted market vegetables in this fragrant broth, served alongside fragrant, perfectly steamed jasmine rice."
+  },
+  {
+    "id": 8,
+    "name": "Chocolate Fondant",
+    "price": "18€",
+    "description": "Warm flourless chocolate cake with molten center.",
+    "ingredients": [
+      "dark chocolate",
+      "butter",
+      "eggs",
+      "sugar"
+    ],
+    "category": "desserts",
+    "dietary": [
+      "gluten-free"
+    ],
+    "image": "images/fondant.jpg",
+    "story": "The ultimate decadent finale. Our signature chocolate fondant is baked exactly to order, featuring a delicate cake exterior that yields to a rushing center of warm, molten dark chocolate. Dusted with a snow-like layer of powdered sugar, it provides a dramatic, melt-in-your-mouth experience that is purely unforgettable."
+  },
+  {
+    "id": 9,
+    "name": "Sparkling Lemonade",
+    "price": "6€",
+    "description": "Fresh lemon juice with sparkling mineral water.",
+    "ingredients": [
+      "lemon juice",
+      "sparkling water",
+      "mint",
+      "sugar"
+    ],
+    "category": "beverages",
+    "dietary": [
+      "non-alcoholic"
+    ],
+    "image": "images/lemonade.jpg",
+    "story": "Refreshment redefined. We craft this sparkling beverage using hand-squeezed, sun-ripened Amalfi lemons, lightly sweetened with raw agave and topped with sparkling mineral water. Served in a tall, frosty glass with generous ice cubes and freshly bruised mint leaves for an immediately revitalizing burst of citrus."
+  },
+  {
+    "id": 10,
+    "name": "House Red Wine",
+    "price": "12€",
+    "description": "A glass of our finest house red.",
+    "ingredients": [
+      "red grapes",
+      "sulfites"
+    ],
+    "category": "beverages",
+    "dietary": [
+      "alcoholic"
+    ],
+    "image": "images/redwine.jpg",
+    "story": "A meticulously curated selection from our private cellar. This elegant house red boasts deep, complex notes of dark cherry, toasted oak, and a hint of vanilla. With its velvety tannins and remarkably smooth finish, it is designed to pair flawlessly with our rich, hearty main courses."
+  },
+  {
+    "id": 11,
+    "name": "French Onion Soup",
+    "price": "18€",
+    "description": "Classic soup with Gruyere crouton.",
+    "ingredients": [
+      "beef broth",
+      "onions",
+      "gruyere cheese",
+      "baguette"
+    ],
+    "category": "starters",
+    "dietary": [
+      "onions"
+    ],
+    "image": "images/onionsoup.jpg",
+    "story": "A comforting bowl of Parisian tradition. We slowly caramelize sweet onions for over six hours until they form a deep, mahogany-colored, umami-rich beef broth. The soup is then poured into a traditional ramekin, topped with a thick slice of artisanal baguette, and smothered in bubbly, deeply browned Gruyère cheese."
+  },
+  {
+    "id": 12,
+    "name": "Quinoa Bowl",
+    "price": "19€",
+    "description": "Healthy quinoa mixed with roasted sweet potatoes and kale.",
+    "ingredients": [
+      "quinoa",
+      "sweet potato",
+      "kale",
+      "tahini dressing"
+    ],
+    "category": "lightCourses",
+    "dietary": [
+      "vegan",
+      "gluten-free",
+      "lactose-free"
+    ],
+    "image": "images/quinoa.jpg",
+    "story": "Nourishment presented elegantly. A hearty base of fluffy, protein-rich quinoa is beautifully arranged with caramelized, oven-roasted sweet potatoes and crisp, massage-tenderized baby kale. It is all brought together by a rich, house-made tahini dressing, delivering a perfect harmony of earthy, sweet, and nutty flavors."
+  },
+  {
+    "id": 13,
+    "name": "Duck Confit",
+    "price": "34€",
+    "description": "Slow cooked duck leg with crispy skin.",
+    "ingredients": [
+      "duck leg",
+      "duck fat",
+      "garlic",
+      "thyme"
+    ],
+    "category": "main",
+    "dietary": [
+      "gluten-free",
+      "lactose-free"
+    ],
+    "image": "images/duck.jpg",
+    "story": "A masterpiece of French gastronomy prepared through the time-honored tradition of slow-cooking. The duck leg is cured overnight with sea salt and fresh herbs, then gently braised in its own rich fat until meltingly tender. Pan-seared to yield a shatteringly crisp skin, it is served alongside golden, herb-roasted potatoes."
+  },
+  {
+    "id": 14,
+    "name": "Apple Tart",
+    "price": "16€",
+    "description": "Classic French apple tart with vanilla cream.",
+    "ingredients": [
+      "apples",
+      "puff pastry",
+      "butter",
+      "sugar",
+      "vanilla cream"
+    ],
+    "category": "desserts",
+    "dietary": [],
+    "image": "images/appletart.jpg",
+    "story": "A stunning homage to the French countryside. Featuring wafer-thin slices of tart, crisp apples beautifully fanned over a buttery, flaky puff pastry crust that shatters perfectly at the touch of a fork. Served warm from the oven alongside a generous scoop of artisanal vanilla bean cream for a rich, comforting finish."
+  },
+  {
+    "id": 15,
+    "name": "Craft IPA",
+    "price": "8€",
+    "description": "Hoppy and refreshing local Indian Pale Ale.",
+    "ingredients": [
+      "water",
+      "malt",
+      "hops",
+      "yeast"
+    ],
+    "category": "beverages",
+    "dietary": [
+      "alcoholic"
+    ],
+    "image": "images/ipa.jpg",
+    "story": "For the discerning craft beer enthusiast. This locally brewed India Pale Ale pours a radiant golden amber, crowned with a thick, frothy head. It delivers a bold, upfront bouquet of citrus and pine hops, balanced by a sturdy malt backbone, ending with a crisp, refreshing, and satisfyingly bitter finish."
+  },
+  {
+    "id": 16,
+    "name": "Classic Caesar Salad",
+    "price": "15€",
+    "description": "Crisp romaine, parmesan, croutons.",
+    "ingredients": [
+      "romaine",
+      "parmesan",
+      "croutons",
+      "anchovies"
+    ],
+    "category": "starters",
+    "dietary": [],
+    "image": "images/caesar.jpg",
+    "story": "Our uncompromising take on the legendary salad. We use only the crispest inner leaves of Romaine lettuce, tossed in a pungent, creamy, house-made dressing featuring authentic Spanish anchovies and roasted garlic. Finished with oversized, garlic-rubbed artisan croutons and generous shavings of aged Parmigiano-Reggiano."
+  },
+  {
+    "id": 17,
+    "name": "Grilled Salmon",
+    "price": "38€",
+    "description": "Fresh Atlantic salmon with asparagus.",
+    "ingredients": [
+      "salmon",
+      "asparagus",
+      "lemon",
+      "butter"
+    ],
+    "category": "main",
+    "dietary": [
+      "gluten-free"
+    ],
+    "image": "images/salmon.jpg",
+    "story": "A premium cut of thick, sustainably caught Atlantic salmon, expertly grilled to achieve a delicate, smoky char while remaining remarkably moist inside. Plated effortlessly over vibrant, crisp-tender charred asparagus spears and finished with a bright squeeze of fresh lemon, representing pure, unadulterated flavor."
+  },
+  {
+    "id": 18,
+    "name": "Mushroom Soup",
+    "price": "14€",
+    "description": "Creamy roasted wild mushroom soup.",
+    "ingredients": [
+      "mushrooms",
+      "cream",
+      "garlic",
+      "thyme"
+    ],
+    "category": "starters",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "images/mushroom.jpg",
+    "story": "Deep, earthy, and supremely comforting. We slow-roast a blend of wild, seasonal forest mushrooms to concentrate their intense flavors, then blend them smoothly with rich, heavy cream and homemade vegetable stock. Each bowl is elegantly garnished with fresh sprigs of thyme and a swirl of truffle oil."
+  },
+  {
+    "id": 19,
+    "name": "Mango Sorbet",
+    "price": "12€",
+    "description": "Refreshing dairy-free mango sorbet.",
+    "ingredients": [
+      "mango",
+      "sugar",
+      "lime"
+    ],
+    "category": "desserts",
+    "dietary": [
+      "vegan",
+      "lactose-free",
+      "gluten-free"
+    ],
+    "image": "images/mango.jpg",
+    "story": "The perfect palate cleanser or light conclusion to your dining experience. A vibrant, intensely fruity sorbet made exclusively from exceptionally ripe, sweet Alphonso mangoes. It avoids heavily processed sugars, relying entirely on the natural sweetness of the fruit to deliver a frosty, tropical delight."
+  },
+  {
+    "id": 20,
+    "name": "Espresso Martini",
+    "price": "14€",
+    "description": "Vodka, espresso, coffee liqueur.",
+    "ingredients": [
+      "vodka",
+      "espresso",
+      "kahlua"
+    ],
+    "category": "beverages",
+    "dietary": [
+      "alcoholic"
+    ],
+    "image": "images/martini.jpg",
+    "story": "The modern sophisticate's cocktail of choice. We violently shake premium vodka, a splash of coffee liqueur, and a freshly pulled, robust shot of dark roasted espresso. Strained into an elegant, chilled martini glass, it settles with a perfectly thick, crema-like foam top, garnished with three lucky espresso beans."
+  },
+  {
+    "id": 21,
+    "name": "Still Water",
+    "price": "4€",
+    "description": "Premium bottled mineral water.",
+    "ingredients": [
+      "water"
+    ],
+    "category": "beverages",
+    "dietary": [
+      "non-alcoholic"
+    ],
+    "image": "images/water.jpg",
+    "story": "Pure, untouched hydration. We serve premium still mineral water directly from natural, underground European springs. Served perfectly chilled without ice to preserve its smooth, neutral mouthfeel, ensuring it acts as the ideal, unobtrusive companion to your multi-course gastronomic journey."
+  },
+  {
+    "id": 22,
+    "name": "3-Course Chef's Menu",
+    "price": "85€",
+    "description": "Burrata, Filet Mignon, Chocolate Fondant.",
+    "ingredients": [
+      "burrata",
+      "beef",
+      "chocolate"
+    ],
+    "category": "setMeals",
+    "dietary": [],
+    "image": "images/chefmenu.jpg",
+    "story": "Allow our executive chef to orchestrate a symphonic culinary journey exclusively for you. This three-course progressive tasting menu features a carefully curated starter, our signature main course, and a decadent dessert. It is an exploration of our kitchen's absolute finest seasonal ingredients and techniques."
+  },
+  {
+    "id": 23,
+    "name": "2-Course Vegan Menu",
+    "price": "45€",
+    "description": "Quinoa Bowl and Vegan Coconut Curry.",
+    "ingredients": [
+      "quinoa",
+      "coconut",
+      "vegetables"
+    ],
+    "category": "setMeals",
+    "dietary": [
+      "vegan",
+      "lactose-free",
+      "gluten-free"
+    ],
+    "image": "images/veganmenu.jpg",
+    "story": "An uncompromised, entirely plant-based gastronomic experience. This exclusive two-course journey proves that vegan dining can be exceptionally luxurious. It features a vibrant, nutrient-dense lighter course followed by a deeply satisfying, entirely animal-free main, crafted to surprise and delight the palate."
+  },
+  {
+    "id": 24,
+    "name": "Oysters on the Half Shell",
+    "price": "24€",
+    "description": "Half dozen fresh oysters with mignonette.",
+    "ingredients": [
+      "oysters",
+      "vinegar",
+      "shallots"
+    ],
+    "category": "starters",
+    "isSpecial": true,
+    "dietary": [
+      "gluten-free",
+      "lactose-free",
+      "onions"
+    ],
+    "image": "images/oysters.jpg",
+    "story": "The ocean's most exquisite delicacy served raw and perfectly chilled. We present a half-dozen freshly shucked, premium oysters nestled deeply on a bed of crushed ice. Accompanied by our signature, tangy shallot mignonette and fresh lemon wedges to perfectly accentuate their clean, briny, metallic finish."
+  }
+]

@@ -1,20 +1,47 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <title> Menu </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Menu | Grand Hotel</title>
 </head>
-
 <body>
 
-    <h1 style="text-align:center"> Menu Page </h1>
+<!-- App Header -->
+<header class="page-title">Grand Hotel Menu</header>
+
+<main>
+    <!-- Dynamic Categories & Filters -->
+    <div id="menu-categories" class="category-tabs"></div>
+    <div id="menu-filters" class="filter-chips"></div>
+
+    <!-- Dynamic container for Model data -->
+    <div id="menu-sections-container" style="padding-bottom: 80px;"></div>
+</main>
 
 <nav class="bottom-nav">
-    <a href="main.html"> Start </a>
-    <a href="menu.html" class="current"> Menu </a>
-    <a href="cart.html"> Cart </a>
+    <a href="main.html">
+        <span class="nav-icon">✨</span>
+        <span data-i18n="navStart">Start</span>
+    </a>
+    <a href="menu.html" class="current">
+        <span class="nav-icon">🍽️</span>
+        <span data-i18n="navMenu">Menu</span>
+    </a>
+    <a href="cart.html" id="cart-nav-link">
+        <span class="nav-icon">🛒</span>
+        <span id="cart-badge" data-i18n="navCart">Cart</span>
+    </a>
 </nav>
 
+<div id="toast" class="toast"></div>
+
+<button class="call-service-btn">🛎️</button>
+
+
+<script src="js/model.js"></script>
+<script src="js/view.js"></script>
+<script src="js/controller.js"></script>
 </body>
 </html>

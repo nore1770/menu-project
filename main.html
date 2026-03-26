@@ -1,41 +1,64 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <title> Grand Hotel Menu </title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Grand Hotel Menu</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-<header class="title">
-    Grand Hotel Menu
-</header>
-
 <main>
-
-    <section class="menu-section">
-        <h2> Recommendations </h2>
-        <div class="scroll-row" id="recommendations"></div>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Grand Hotel</h1>
+            <p>Experience culinary excellence and meticulous service at the finest establishment.</p>
+        </div>
+    </div>
+    
+    <section class="experience-section">
+        <h2 style="font-family: 'Playfair Display', serif; color: var(--primary-dark); font-size: 2rem; margin-bottom: 10px;">A Heritage of Taste</h2>
+        <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.6; max-width: 600px; margin: 0 auto;">Since 1920, the Grand Hotel has been serving exquisite culinary masterpieces inspired by global traditions and local ingredients. Each dish is carefully crafted by our Michelin-starred chefs to elevate your dining experience.</p>
+        <hr class="fancy-divider">
     </section>
 
-    <section class="menu-section">
-        <h2> Deals </h2>
-        <div class="scroll-row" id="deals"></div>
-    </section>
+    <div style="padding: 10px 20px; text-align: center; color: var(--text-muted);">
+        <h2 data-i18n="lblTrending" style="margin-bottom: 15px; font-family: 'Playfair Display', serif; color: var(--primary-dark);">Trending & Recommendations</h2>
+    </div>
+    <div id="trending-container" class="scroll-row" style="flex-wrap: wrap; justify-content: center; gap: 20px; padding: 0 20px 40px 20px;"></div>
 
-    <section class="menu-section">
-        <h2> Set Meals </h2>
-        <div class="scroll-row" id="sets"></div>
-    </section>
+    <div style="padding: 10px 20px; text-align: center; color: var(--text-muted);">
+        <h2 style="margin-bottom: 15px; font-family: 'Playfair Display', serif; color: var(--primary-dark);">Today's Special</h2>
+    </div>
+    <div id="special-container" class="scroll-row" style="flex-wrap: wrap; justify-content: center; gap: 20px; padding: 0 20px 40px 20px;"></div>
 
+    <div style="padding: 10px 20px; text-align: center; color: var(--text-muted);">
+        <h2 style="margin-bottom: 15px; font-family: 'Playfair Display', serif; color: var(--primary-dark);">Set Meals (2- or 3-Course)</h2>
+    </div>
+    <div id="setmeals-container" class="scroll-row" style="flex-wrap: wrap; justify-content: center; gap: 20px; padding: 0 20px 80px 20px;"></div>
 </main>
 
 <nav class="bottom-nav">
-    <a href="main.html" class="current"> Start </a>
-    <a href="menu.html"> Menu </a>
-    <a href="cart.html"> Cart </a>
+    <a href="main.html" class="current">
+        <span class="nav-icon">✨</span>
+        <span data-i18n="navStart">Start</span>
+    </a>
+    <a href="menu.html">
+        <span class="nav-icon">🍽️</span>
+        <span data-i18n="navMenu">Menu</span>
+    </a>
+    <a href="cart.html" id="cart-nav-link">
+        <span class="nav-icon">🛒</span>
+        <span id="cart-badge" data-i18n="navCart">Cart</span>
+    </a>
 </nav>
 
+<div id="toast" class="toast"></div>
+
+<button class="call-service-btn">🛎️</button>
+
+<script src="js/model.js"></script>
+<script src="js/view.js"></script>
+<script src="js/controller.js"></script>
 </body>
 </html>
